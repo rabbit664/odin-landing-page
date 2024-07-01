@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <meta charset="UTF-8">
   <title>Landing Page</title>
   <link rel="stylesheet" href="style.css">
 
@@ -64,6 +65,4 @@
   <!-- the syntax to write a comment on your code -->
 
 </body>
-
-
 </html>
