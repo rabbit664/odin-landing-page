@@ -1,3 +1,7 @@
 .box {
     border: solid green;
 }
+
+.header {
+    border: solid red;
+}
