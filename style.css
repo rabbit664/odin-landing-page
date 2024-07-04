@@ -4,4 +4,32 @@
 
 .header {
     border: solid red;
+    /* background-color: #fff4a3; */
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+h3 {
+    /*display: inline-block; */
+    flex: 1;
+    align-self: flex-start;
+}
+
+.one {
+    padding: 0px 60px;
+    background-color: #1f2937;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 300%;
+}
+
+.five {
+    background-color: #1f2937;
 }
