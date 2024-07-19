@@ -4,10 +4,11 @@
 
 .header {
     border: solid red;
-    /* background-color: #fff4a3; */
+    padding-bottom: 30px;
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: space-between;
+    
 }
 
 .logo{
@@ -19,9 +20,9 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
     gap: 4em;
-    
+    display: flex;
+    flex-direction: row;
 
 }
 
@@ -34,11 +35,15 @@ a {
 .main {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    
 
 }
 
-.awsome {
+.group {
+    flex-grow: 1;
+}
+
+.awesome {
     font-family: 'Times New Roman', Times, serif;
     font-size: 300%;
     color: white;
@@ -60,15 +65,37 @@ a {
 }
 
 .main img {
-    height:  300px;
-    width: 600px;
+    height:  200px;
+    width: 400px;
+    flex-grow: 1;
 }
 
 .one {
     padding: 0px 60px;
     background-color: #1f2937;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.two {
+    height: 480px;
+    flex-direction: column;
+}
+
+.three {
+    height: 450px;
+    flex-direction: column;
+}
+
+.four {
+    height: 350px;
+    flex-direction: column;
 }
 
 .five {
+    height: 100px;
     background-color: #1f2937;
 }
