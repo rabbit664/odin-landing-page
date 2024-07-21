@@ -2,18 +2,26 @@
     border: solid green;
 }
 
+.one {
+    padding: 0px 60px;
+    background-color: #1f2937;
+    height: 500px;
+}
+
 .header {
-    border: solid red;
+    /*border: solid red;*/
     padding-bottom: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+
 }
 
 .logo{
     font-size: 24px;
     color: #f9faf8; 
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 ul {
@@ -30,37 +38,46 @@ a {
     text-decoration: none;
     color: #e5e7eb;  
     font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .main {
+    /*border: solid green;*/
+    height: 430px;
     display: flex;
-    flex-direction: row;
-    
-
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center;
+   
 }
 
 .group {
-    flex-grow: 1;
+    flex-grow: 1; 
+    
 }
 
 .awesome {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 300%;
-    color: white;
-    border: solid purple;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    /*border: solid purple;*/
 }
 
 
 .paragraph {
-    color: white;
-    border: solid purple;
+    color: #f9faf8;
+    font-size: 18px;
+    /*border: solid purple;*/
 }
 
 .first_button {
     background-color: #3883f6;
     font-size: 20px;
-    color: white;
-    border: 1px solid #3883f6 ;
+    color: #f9faf8;
+    border: 3px solid #3883f6 ;
+    border-radius: 5px;
+    padding: 0px 10px;
 
 }
 
@@ -70,19 +87,28 @@ a {
     flex-grow: 1;
 }
 
-.one {
-    padding: 0px 60px;
-    background-color: #1f2937;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-}
-
 .two {
     height: 480px;
-    flex-direction: column;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    border: solid red;
+    height: 100px;
+}
+
+.images {
+    border: solid purple;
+    display: flex;
+    flex-direction: row;
+}
+
+.two img {
+    height: 150px;
+    width: 150px;
+    border: solid plum;
 }
 
 .three {
