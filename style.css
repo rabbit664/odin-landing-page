@@ -6,7 +6,6 @@
 }
 
 .header {
-    /*border: solid red;*/
     padding-bottom: 30px;
     display: flex;
     flex-direction: row;
@@ -37,7 +36,6 @@ a {
 }
 
 .main {
-    /*border: solid green;*/
     height: 430px;
     display: flex;
     flex-direction: row; 
@@ -46,8 +44,7 @@ a {
 }
 
 .group {
-    flex-grow: 1; 
-    
+    flex-grow: 1;  
 }
 
 .awesome {
@@ -55,14 +52,11 @@ a {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
-    /*border: solid purple;*/
 }
-
 
 .paragraph {
     color: #f9faf8;
     font-size: 18px;
-    /*border: solid purple;*/
 }
 
 .first_button {
@@ -89,7 +83,6 @@ a {
     font-size: 36px;
     font-weight: bolder;
     color: #293342;
-    /*border: solid red;*/
     height: 75px;
     text-align: center;
     padding-top: 30px;
@@ -97,7 +90,6 @@ a {
 }
 
 .images {
-    /*border: solid purple;*/
     height: 350px;
     display: flex;
     flex-direction: row;
@@ -112,9 +104,7 @@ a {
     border-radius: 12px;
 }
 
-
 .ball {
-    /*border: solid yellow;*/
     height: 340px;
     width: 350px;
     display: flex;
@@ -137,7 +127,6 @@ a {
 }
 
 .quote {
-    /*border: solid red;*/
     height: 280px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
@@ -147,18 +136,15 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .thor {
-    /*border: solid purple;*/
     height: 40px;
     width: 750px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
     font-size: 30px;
-    align-self: flex-end;
-    
+    align-self: flex-end; 
 }
 
 .four {
@@ -166,12 +152,9 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-    
 }
 
 .container {
-    /*border: solid fuchsia;*/
     height: 180px;
     margin: 0px 150px;
     display: flex;
@@ -184,13 +167,11 @@ a {
 }
 
 .paragraphs {
-    /*border: solid gold;*/
     align-self: center;
     height: 80px;
     background-color: #3882f6;
     padding-top: 15px;
     padding-right: 20px;
-
 }
 
 .action {
@@ -205,9 +186,7 @@ a {
 }
 
 .second_button {
-    /*border: solid royalblue;*/
     align-self: center;
-    /*flex-grow: 1;*/
     background-color: #3882f6;
     border: 3px solid white;
     border-radius: 8px;
@@ -227,7 +206,6 @@ a {
 }
 
 .footer {
-    /*border: solid red;*/
     height: 30px;
     display: flex;
     flex-direction: column;
